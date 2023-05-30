@@ -53,6 +53,7 @@ body{
     content: counter(item) ". ";
     counter-increment: item;
     font-size: 30px;
+    margin-right:5px;
 }
 .right{
     position:relative;
