@@ -18,8 +18,6 @@ body{
     margin-left:5%;
     margin-bottom:30px;
     width:85%;
-    
-    
 }
 
 .time {
@@ -43,17 +41,21 @@ body{
     width:65%;
     background-color:rgb(235, 193, 137)
 }
+.ingredients{
+    list-style-type: none;
+}
 .steps{
     list-style-type: none;
-    
 }
 .steps { counter-reset: item; }
 .steps li:before {
     background-color:rgb(228, 171, 96);
-    content: counter(item) ". ";
+    content: counter(item);
     counter-increment: item;
+    padding-left:5px;
+    padding-right:5px;
     font-size: 30px;
-    margin-right:5px;
+    margin:5px;
 }
 .right{
     position:relative;
